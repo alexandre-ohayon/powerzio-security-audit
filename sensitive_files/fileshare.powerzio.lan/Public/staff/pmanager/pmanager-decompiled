@@ -9,7 +9,7 @@ void *generate_password(char *str) {
     break;
     }
     if (str[var3] == ')') {
-    (undefined *) ((long) var1 + (long)var3 = 0x41;
+    (undefined *) ((long) var1 + (long)var3 = 0x41; // 0x41 == A
     }
     else {
     (char *) (long)var1 + (long)var3 - str[var3] + -9;
