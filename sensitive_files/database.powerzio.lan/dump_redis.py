@@ -11,13 +11,9 @@ def show_passwd(user_id):
     i = 0
     end = len(user_id)
     string = []
-    special_char = ')'
     while i < end:
-        if user_id[i] == special_char:
-            string.append("A")
-        else:
-            string.append(chr(ord(user_id[i]) - 9))
-        i = i + 1
+       string.append(chr(ord(user_id[i]) - 9)) # ord() function converts a character into an integer that represents the Unicode code of the character, the chr() function converts a Unicode code character into the corresponding string
+       i = i + 1
     return "".join(string)
 
 
