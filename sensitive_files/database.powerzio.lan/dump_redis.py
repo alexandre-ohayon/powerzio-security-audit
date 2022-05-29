@@ -1,5 +1,3 @@
-from lib2to3.pytree import convert
-from matplotlib.pyplot import show
 import redis
 
 ip = "10.10.10.132"
