@@ -10,7 +10,7 @@ def show_passwd(user_id):
     end = len(user_id)
     string = []
     while i < end:
-       string.append(chr(ord(user_id[i]) - 9)) # ord() function converts a character into an integer that represents the Unicode code of the character, the chr() function converts a Unicode code character into the corresponding string
+       string.append(chr(ord(user_id[i]) - 9)) # ord() function converts a character into an integer that represents the Unicode code of the character, the chr() function converts a Unicode code character into the corresponding string, -9 is because we saw there is + -9 on the password generation of pmanager.
        i = i + 1
     return "".join(string)
 
