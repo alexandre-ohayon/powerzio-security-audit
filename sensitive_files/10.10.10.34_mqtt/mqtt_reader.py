@@ -1,7 +1,5 @@
-from asyncio import open_connection
 import paho.mqtt.client as mqtt
 from time import sleep
-import requests
 
 
 def on_connect(client, userdata, flags, rc):
